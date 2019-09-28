@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaylorSwiftTopSingle</string>
+    <string name="song_title">Judul Lagu</string>
+    <string name="year">Tahun</string>
+    <string name="detail">Detail</string>
+    <string name="about">about</string>
+</resources>

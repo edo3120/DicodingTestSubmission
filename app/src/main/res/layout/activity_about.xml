@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/profile_image"/>
+
+    <LinearLayout
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Muhammad Firdaus"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/profile_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edo3120@gmail.com"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
